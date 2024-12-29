@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 align="center"><b>Employee Management System</b></h2>
+    </header>
+    <nav align="center">
+        <a href="index.html">Home</a>
+        <a href="register.html">Registration</a>
+        <a href="login.html">Login</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="https://lms.kluniversity.in/login/index.php" target="_blank">LMS</a>
+        <a href="https://newerp.kluniversity.in/" target="_blank">ERP</a>
+        <a href="https://academics.klef.in/login" target="_blank">Academics Portal</a>
+    </nav>
+
+    <h3 align="center"><u>Contact Us</u></h3>
+    <form align="center" method="POST" action="submit_contact.html">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Your Contact Number:</label>
+        <input type="text" id="phone" name="phone" pattern="[6789][0-9]{9}" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>

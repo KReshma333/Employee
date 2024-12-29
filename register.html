@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h2 align="center"><b>Employee management system</b></h2>
+    </header>
+        <nav align="center">
+            <a href="index.html">Home</a>
+            <a href="register.html">Registration</a>
+            <a href="login.html">Login</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="https://lms.kluniversity.in/login/index.php" target="_blank">LMS</a>
+            <a href="https://newerp.kluniversity.in/" target="_blank">ERP</a>
+            <a href="https://academics.klef.in/login" target="_blank">Academics Portal</a>
+        </nav>
+        <h3 align="center"><u>Employee Registration</u></h3>
+        <form align="center" method="POST" action="login.html">
+
+            <label for="id">Enter Full ID</label>
+            <input type="text" id="id" name="id" required><br><br>
+
+            <label for="username">Username</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="Female" required>Female
+            <input type="radio" name="gender" value="Others" required>Others <br><br>
+
+            <label for="number">Enter Contact Number</label>
+            <input type="text" id="number" name="number" pattern="[6789]{0-9}{9}" required><br><br>
+
+            <label for="email">Enter Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </form>
+</body>
+</html>

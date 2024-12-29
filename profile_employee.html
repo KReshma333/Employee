@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 50px;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #333;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 0 15px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #007BFF;
+            transform: scale(1.05);
+        }
+        nav a:active {
+            background-color: #0056b3;
+        }
+        main {
+            margin: 30px auto;
+            width: 80%;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+        .emplycard {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+        .emplycard img {
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .emplycard h3 {
+            color: #333;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .emplycard h4 {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .emplycard address {
+            font-style: normal;
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .emplycard i {
+            color: #555;
+            font-size: 16px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Employee Directory</h1>
+    </header>
+    <nav>
+        <a href="home_employee.html">Home</a>
+        <a href="profile_employee.html">Profile page</a>
+        <a href="index.html">Logout</a>
+    </nav>
+    <main>
+        <div class="emplycard">
+            <img src="images/employee.jpg" alt="Employee image" /> 
+            <h3>ID: 2300033252</h3>
+            <h3>Name: K. Reshma Chowdary</h3> 
+            <h4>CSE-HTE  -  B.Tech  -  2</h4>
+            <address>Visakhapatnam, AP, India</address>
+            <i>Email Id :- 2300033252@kluniversity.in</i><br />
+            <i>Phone number :- 123456789</i>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyrights by Employee Management System. All rights reserved</p>
+    </footer>
+</body>
+</html>
